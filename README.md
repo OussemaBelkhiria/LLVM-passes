@@ -1,8 +1,5 @@
 ## Dead Code Elimination
-
-Your first assignment is to design a pass that eliminates redundant instructions.
-We define dead instructions as instructions that write to a register not used by subsequent instructions and have no
-observable side effects (e.g., write to memory, return, perform a jump). this implementation focuses on removing trivially dead Instructions, irrelevant basic blocks and useless load/stores.
+this implementation focuses on removing trivially dead Instructions, irrelevant basic blocks and useless load/stores.
 
 ## Memory Safety
 
